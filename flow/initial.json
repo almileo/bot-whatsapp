@@ -19,26 +19,34 @@
     },
     {
         "keywords":  [
-            "cursos",
+            "servicios",
             "info",
-            "curso"        ],
+            "curso",
+            "Servicios"        
+        ],
         "key": "STEP_2"
     },
     {
         "keywords":  [
-            "angular"
+            "bots"
         ],
         "key": "STEP_2_1"
     },
     {
         "keywords":  [
-            "node"
+            "paginas web",
+            "paginas",
+            "web",
+            "sitio",
+            "páginas web",
+            "página",
+            "pagina"
         ],
         "key": "STEP_2_2"
     },
     {
         "keywords":  [
-            "ngrx"
+            "consultoria"
         ],
         "key": "STEP_2_3"
     },
@@ -53,7 +61,8 @@
             "asesor",
             "asesores",
             "Vendedor",
-            "cobrador"
+            "cobrador",
+            "consultoria"
         ],
         "key": "STEP_3"
     },

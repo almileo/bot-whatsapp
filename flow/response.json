@@ -1,12 +1,10 @@
 {
     "DEFAULT":{
         "replyMessage":[
-            "*Esta respuesta es un respuesta default* cuando no se consigue una palabra clave \n",
-            "la puedes desactivar en tu archivo .env DEFAULT_MESSAGE=false \n",
-            "tambien te quiero recordar que si presentas algun error pasarte por el repositorio \n",
-            "https://github.com/leifermendez/bot-whatsapp#chatbot-whatsapp-opensource \n",
-            "y recuerda tener la ultima versión del proyecto \n\n",
-            "Prueba escribiendo *hola* \n"
+            "Ups no conozco esa palabra \n\n",
+            "puedes probar con *hola* o *info* \n\n",
+            "si en el menu de opciones no se encuentra lo que necesitas \n",
+            "escribime AYUDA y te contesto a la brevedad. \n"
         ],
         "media":null,
         "trigger":null
@@ -22,54 +20,50 @@
     },
     "STEP_1":{
         "replyMessage":[
-            "Hola! y✌️ Bienvenido a este 🤖 CHATBOT de Whatsapp, lo primero \n",
-            "decirte que mi nombre es *Leifer Mendez*😎  \n",
-            "\n Si necesitas ver más info sobre las capacitacion tecnicas ",
-            "escribe *cursos* o *info* o escribe *audio*"
+            "Hola! ✌️ Bienvenido a este 🤖 CHATBOT de Whatsapp, \n",
+            " mi nombre es *Leo Almiron* de StreamAR  \n",
+            "\n Si necesitas ver más info sobre los servicios que brindo ",
+            "escribe *servicios* o *info* o escribe *audio*"
         ],
-        "media":"https://media2.giphy.com/media/VQJu0IeULuAmCwf5SL/giphy.gif",
         "trigger":null,
         "actions":{
             "title":"¿Que te interesa ver?",
             "message":"Recuerda todo este contenido es gratis y estaria genial que me siguas!",
             "footer":"Gracias",
             "buttons":[
-                {"body":"Cursos"},
-                {"body":"Youtube"},
-                {"body":"Telegram"}
+                {"body":"Servicios"},
+                {"body":"Bots"},
+                {"body":"Paginas Web"},
+                {"body":"Contacto"}
             ]
         }
     },
     "STEP_2":{
         "replyMessage":[
             "Perfecto, te voy a pasar la lista ",
-            "de los temas que tengo y un breve video 🙂🤖 \n\n",
-            "*Angular* Basico (Pago) \n",
-            "*Angular* Basico (Gratis) \n",
-            "*Node* Basico (Gratis) \n",
-            "*NGRX* Basico (Gratis) \n",
-            "*AWS* Basico (Pago) \n\n",
+            "de los servicios con los que te puedo ayudar 🙂 \n\n",
+            "*Bots para Watsapp* \n",
+            "*Paginas web* \n",
+            "*Consultoria* \n\n",
             "Escribe la palabra del tema que te interese \n"
         ],
-        "media":"https://i.giphy.com/media/5J5gN0WUk0VToHaK2p/giphy-downsized.gif",
         "trigger":null
     },
     "STEP_2_1":{
         "replyMessage":[
-            "Si te interesa Angular tienes disponible \n",
-            "*(Gratis)* https://bit.ly/367tJ32 \n\n",
-            "*(Pago)* https://link.codigoencasa.com/PROMO-INICIAL \n\n",
-            "*(Pago)* https://link.codigoencasa.com/ANGULAR-BASICO-EDTEAM \n\n",
+            "Si te interesa un *Bot para Whatsapp* \n",
+            "(como este) \n\n",
+            "contactame para poder coordinar una reunion virtual \n\n",
+            "y saber mas sobre tus necesidades \n\n",
             "😎😎😎"
         ],
-        "media":"https://i.imgur.com/Q0a5UQI.jpg",
         "trigger":null
     },
     "STEP_2_2":{
         "replyMessage":[
-            "Si te interesa NODE tienes disponible \n",
-            "*(Gratis)* https://bit.ly/3od1Bl6 \n\n",
-            "Espero pronto tener más material disponible",
+            "Si necesitas tu página web \n",
+            "contactame para poder coordinar una reunion virtual \n\n",
+            "asi podemos revisar lo que necesitas!",
             "🤖"
         ],
         "media":null,
@@ -77,9 +71,11 @@
     },
     "STEP_2_3":{
         "replyMessage":[
-            "NGRX para manejar estados en Angular \n",
-            "*(Gratis)* https://bit.ly/ngrx-desde-cero \n",
-            "A darle! 😮"
+            "Para la consultoria online \n",
+            "toma un turno desde este calendario \n\n",
+            "https://streamar.simplybook.me/v2/#book/service/1/count/1/ \n",
+            "tene en cuenta que esta reunion es paga \n\n",
+            "Espero verte pronto! 😮"
         ],
         "media":null,
         "trigger":null
@@ -105,7 +101,6 @@
         "replyMessage":[
             "Gracias a ti! \n"
         ],
-        "media":"https://media4.giphy.com/media/hur0SFIU5SH4mxNBWa/giphy.gif",
         "trigger":null
     },
     "STEP_5":{
