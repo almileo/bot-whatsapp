@@ -139,8 +139,13 @@ client.on('qr', qr => generateImage(qr, () => {
 }))
 
 client.on('ready', (a) => {
-        connectionReady()
-        listenMessage()
+        try {
+            connectionReady()
+            listenMessage()
+            
+        } catch (error) {
+            console.log('Error: ', error);
+        }
         // socketEvents.sendStatus(client)
 });
 
